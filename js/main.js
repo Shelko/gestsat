@@ -118,7 +118,7 @@ $('#crearUsuario').on('submit', function (e) {
         data.append('file', foto[0].files[0]);
 
         $.ajax({
-            url: 'http://localhost/cibersat3.0/reparaciones/crear-usuario',
+            url: 'http://192.168.0.25/cibersat3.0/reparaciones/crear-usuario',
             type: "POST",
             crossDomain: true,
             data: data,
