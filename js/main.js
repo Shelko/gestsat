@@ -127,7 +127,7 @@ $('#crearUsuario').on('submit', function (e) {
             contentType: false,
             success: function (data) {
                 if (data.success == true) {
-                    // location.reload();
+                    location.reload();
                 }
             }
         });
